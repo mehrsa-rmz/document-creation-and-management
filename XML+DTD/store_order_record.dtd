@@ -1,0 +1,13 @@
+<!ELEMENT magazin (furnizor+)>
+<!ELEMENT furnizor (data_incepere_contract, valabilitate_contract, tip_produse, produs+)>
+<!ELEMENT data_incepere_contract (#PCDATA)>
+<!ELEMENT valabilitate_contract (#PCDATA)>
+<!ELEMENT tip_produse (#PCDATA)>
+<!ELEMENT produs (id, tip, model, pret, nr_bucati)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT tip (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT pret (#PCDATA)>
+<!ELEMENT nr_bucati (#PCDATA)>
+<!ATTLIST furnizor nume CDATA #REQUIRED>
+<!ATTLIST produs id CDATA #REQUIRED>

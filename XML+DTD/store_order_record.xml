@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+
+<!--   Ramezani Mehrsa: Evidenta comenzilor catre furnizor ale unui magazin   -->
+
+<!DOCTYPE magazin SYSTEM "store_order_record.dtd">
+<magazin>
+    <furnizor nume="Samsung">
+        <data_incepere_contract>14.05.2019</data_incepere_contract>
+        <valabilitate_contract>4 ani</valabilitate_contract>
+        <tip_produse>electronice</tip_produse>
+        <produs id="dwh87">
+            <id>dwh87</id>
+            <tip>telefon</tip>
+            <model>Galaxy S5</model>
+            <pret>2000 RON</pret>
+            <nr_bucati>350</nr_bucati>
+        </produs>
+        <produs id="er87">
+            <id>er87</id>
+            <tip>televizor</tip>
+            <model>7 Series</model>
+            <pret>5500 RON</pret>
+            <nr_bucati>120</nr_bucati>
+        </produs>
+    </furnizor>
+    <furnizor nume="LG">
+        <data_incepere_contract>20.10.2017</data_incepere_contract>
+        <valabilitate_contract>2 ani</valabilitate_contract>
+        <tip_produse>electronice</tip_produse>
+        <produs id="vg324">
+            <id>vg324</id>
+            <tip>frigider</tip>
+            <model>FJYT685WTGR4</model>
+            <pret>4000 RON</pret>
+            <nr_bucati>65</nr_bucati>
+        </produs>
+        <produs id="biku45">
+            <id>biku45</id>
+            <tip>masina de spalat</tip>
+            <model>FCYX786</model>
+            <pret>2000 RON</pret>
+            <nr_bucati>350</nr_bucati>
+        </produs>
+    </furnizor>
+    <furnizor nume="Lenovo">
+        <data_incepere_contract>05.03.2018</data_incepere_contract>
+        <valabilitate_contract>3 ani</valabilitate_contract>
+        <tip_produse>electronice</tip_produse>
+        <produs id="eip432">
+            <id>eip432</id>
+            <tip>laptop</tip>
+            <model>Yoga Pro</model>
+            <pret>2700 RON</pret>
+            <nr_bucati>440</nr_bucati>
+        </produs>
+        <produs id="nbj182">
+            <id>nbj182</id>
+            <tip>monitor</tip>
+            <model>SJ355GH200</model>
+            <pret>700 RON</pret>
+            <nr_bucati>45</nr_bucati>
+        </produs>
+    </furnizor>
+    <furnizor nume="HP">
+        <data_incepere_contract>18.08.2013</data_incepere_contract>
+        <valabilitate_contract>10 ani</valabilitate_contract>
+        <tip_produse>electronice</tip_produse>
+        <produs id="cfv935">
+            <id>cfv935</id>
+            <tip>imprimanta</tip>
+            <model>BN5893JET</model>
+            <pret>645 RON</pret>
+            <nr_bucati>530</nr_bucati>
+        </produs>
+        <produs id="otr521">
+            <id>otr521</id>
+            <tip>tableta</tip>
+            <model>Tab HP5</model>
+            <pret>1470 RON</pret>
+            <nr_bucati>20</nr_bucati>
+        </produs>
+    </furnizor>
+    <furnizor nume="JBL">
+        <data_incepere_contract>30.11.2020</data_incepere_contract>
+        <valabilitate_contract>7 ani</valabilitate_contract>
+        <tip_produse>electronice</tip_produse>
+        <produs id="law214">
+            <id>law214</id>
+            <tip>boxa</tip>
+            <model>Flip 4</model>
+            <pret>550 RON</pret>
+            <nr_bucati>245</nr_bucati>
+        </produs>
+        <produs id="ppq214">
+            <id>ppq214</id>
+            <tip>casti</tip>
+            <model>Tune 500BT</model>
+            <pret>420 RON</pret>
+            <nr_bucati>600</nr_bucati>
+        </produs>
+    </furnizor>
+</magazin>
